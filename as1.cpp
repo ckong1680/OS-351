@@ -31,8 +31,7 @@ for(i = 0; i < 10; i++) //10 array of strings
 args[i] = (char*) malloc(30*sizeof(char));
 }
 
-point = strtok(buffer," ");
-
+point = strtok(buffer," "); //strtok returns a pointer
 
 strcpy(args[counter++],point); // copies one string to another
 
